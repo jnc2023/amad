@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+.banner{
+    width: 100%;
+    height: 75%;
+    background-image: url(img/colorful-composition-with-mop-sponges-rags-gloves-detergents-general-cleaning-cleaning-service-concept-background.jpg);
+    background-size: cover;
+    background-position: center -1290px;
+      
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-shadow: 1px 1px 1px #919191,
+                1px 2px 1px #919191
+}   
+.logo{
+    width: 150px;
+    cursor: pointer;   
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px; 
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+ 
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #0050c9;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+    
+}
+
+.content{
+    letter-spacing: 2px;
+    margin-top: -40px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #919191,
+                1px 2px 1px #919191
+}
+
+.content h1{
+    font-size: 45px;
+    margin-top: 80px;  
+    
+}
+
+.content p{
+    margin: 20px auto;
+    line-height: 30px;
+    letter-spacing: 2px;
+
+}
+
+.call{
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bolder;
+    border: 2px solid #001aff;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    right: -300px;
+    bottom: 310px;
+    
+}
+
+span{
+    background: #001aff;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+    
+    
+     
+}
+
+button:hover span{
+    width: 100%;
+    
+}
+.call:hover{
+    border: 0px;
+    
+    
+}
+
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.Book{
+    text-align: left;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-size: 1000px;
+    
+}
+
+
+    
+.card{
+    width: 400PX;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 20px;
+    transition: transform 0.5s;
+    background-position: center;
+    background-size: cover;
+    margin-left: 25px;
+    text-align: center;
+    
+}
+
+
+    
+
+.c1{
+    background-image: url(img/chores-woman-cleaning-table-surfcase-with-disinfector.jpg);
+}
+
+.c2{
+    background-image: url(img/after-services-bg.jpg);
+}
+.c3{
+    background-image: url(img/after-party-2.jpg);
+}
+.c4{
+    background-image: url(img/young-woman-ironing-clothes.jpg);
+}
+.c5{
+    background-image: url(img/man-cleaning-windows.jpg);
+}
+.c6{
+    background-image: url(img/young-woman-with-rechargeable-vacuum-cleaner-cleaning-home.jpg);
+}
+.c7{
+    background-image: url(img/person-taking-care-office-cleaning.jpg);
+}
+.c8{
+    background-image: url(img/man-servant-babysitting-kids.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+h5{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(53, 52, 52);
+    font-size: 25px;
+    font-family: 'Secular One', sans-serif;
+   
+    
+}
+
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 40px 40px;
+    letter-spacing: 18px;
+    font-family: 'Assistant', sans-serif;
+    color: #3a3a3a;
+    
+
+
+}
+
+.whatsapp-btn-container {
+    position: fixed;
+    right: 30px;
+    opacity: 0;
+    bottom: -50px;
+    padding: 24px;
+    animation: fade-up 1000ms forwards;
+    animation-delay: 1000ms;
+}
+
+@keyframes fade-up {
+    100% {
+        bottom: 24px;
+        opacity: 1;
+    }
+}
+
+.whatsapp-btn-container .whatsapp-btn {
+    font-size: 48px;
+    color: #0004ff;
+    display: inline-block;
+    transition: all 400ms;
+}
+
+.whatsapp-btn-container .whatsapp-btn:hover {
+    transform: scale(1.2);
+}
+
+.whatsapp-btn-container span {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #0004ff;
+    transform: rotateZ(20deg) translateX(10px);
+    opacity: 0;
+    transition: all 400ms;
+}
+
+.whatsapp-btn-container .whatsapp-btn:hover + span {
+    transform: rotateZ(0deg) translateX(0px);
+    opacity: 1;
+}
+   
+
+.whatsapp1-btn-container {
+    position: fixed;
+    right: 120px;
+    opacity: 0;
+    bottom: -50px;
+    padding: 24px;
+    animation: fade-up 1000ms forwards;
+    animation-delay: 1000ms;
+}
+
+@keyframes fade-up {
+    100% {
+        bottom: 24px;
+        opacity: 1;
+    }
+}
+
+.whatsapp1-btn-container .whatsapp1-btn {
+    font-size: 48px;
+    color: #25d366;
+    display: inline-block;
+    transition: all 400ms;
+}
+
+.whatsapp1-btn-container .whatsapp1-btn:hover {
+    transform: scale(1.2);
+}
+
+.whatsapp1-btn-container span {
+    position: absolute;
+    top: 0;
+    left: 4px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #075e54;
+    transform: rotateZ(20deg) translateX(10px);
+    opacity: 0;
+    transition: all 400ms;
+}
+
+.whatsapp1-btn-container .whatsapp1-btn:hover + span {
+    transform: rotateZ(0deg) translateX(0px);
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
