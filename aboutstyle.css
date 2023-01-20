@@ -281,14 +281,14 @@ h3{
 }
 
 .p3{
-    position: absolute;
-    font-size: 20px;
-    width: auto;
+    .p3{
+    background-color: #005d88;
+    color: aliceblue;
     text-align: center;
-    left: 30px;
-    bottom: 10px;
-    color: white;
 }
+    
+
+
     
 
 
