@@ -6,16 +6,16 @@
 }
 .banner{
     width: 100%;
-    height: 60%;
-    background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url(img/colorful-composition-with-mop-sponges-rags-gloves-detergents-general-cleaning-cleaning-service-concept-background.jpg);
+    height: 400PX;
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(img/colorful-composition-with-mop-sponges-rags-gloves-detergents-general-cleaning-cleaning-service-concept-background.jpg);
     background-size: cover;
-    background-position:center;
-      
+    background-position: center; 
+    
 }
 .navbar{
     width: 85%;
     margin: auto;
-    padding: 30px 0;
+    padding: 0px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,6 +25,9 @@
 .logo{
     width: 350px;
     cursor: pointer;   
+    
+   
+    
 }
 .navbar ul li{
     list-style: none;
@@ -36,6 +39,7 @@
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
+    font-size: 18px;
 }
  
 .navbar ul li::after{
@@ -55,74 +59,70 @@
     
 }
 
-.content{
+.cont{
     letter-spacing: 2px;
-    margin-top: -40px;
+    margin-top: px;
     width: 100%;
-    position: absolute;
-    top: 50%;
+    height: auto;
     transform: translateY(-50%);
     text-align: center;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 1px #919191,
-                1px 2px 1px #919191
+                1px 2px 1px #919191;
+                font-size: 20px;            
+                
 }
 
-.content h1{
-    font-size: 45px;
+
+.cont h1{
+    font-size: 40px;
     margin-top: 80px;  
+    text-align: center;
     
 }
 
-.content p{
+.cont p{
     margin: 20px auto;
     line-height: 30px;
     letter-spacing: 2px;
+    text-align: center;
 
 }
 
 button{
     width: 150px;
-    padding: 15px 0;
+    height: 50px;
+    padding: px 0;
     text-align: center;
-    margin: 20px 10px;
+    margin: ;
     border-radius: 25px;
     font-weight: bolder;
     border: 2px solid #001aff;
     background: transparent;
     color: #ffffff;
     cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    right: -300px;
-    bottom: 310px;
-    
-}
-
-span{
-    background: #001aff;
-    height: 100%;
-    width: 0%;
-    border-radius: 25px;
     position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
-    
-    
-     
-}
+    overflow: hidden;
+    right: 300px;
+    top: 60px;
+    background-color: #001aff;
+
+}   
 
 button:hover span{
-    width: 100%;
+    border: 2px solid #006eff;
+    border-radius: 25px;
     
 }
 button:hover{
-    border: 0px;
     
-    
+    border: 2px solid #006eff;
+    border-radius: 25px;
+    opacity: 0.7;
+
+  
 }
+
 
 
 .content{
@@ -211,6 +211,7 @@ h2{
 .whatsapp-btn-container {
     position: fixed;
     right: 30px;
+    top:300px;
     opacity: 0;
     bottom: -50px;
     padding: 24px;
@@ -239,7 +240,7 @@ h2{
 .whatsapp-btn-container span {
     position: absolute;
     top: 0;
-    left: 25px;
+    left: 20px;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     color: #0004ff;
@@ -252,11 +253,13 @@ h2{
     transform: rotateZ(0deg) translateX(0px);
     opacity: 1;
 }
+
    
 
 .whatsapp1-btn-container {
     position: fixed;
-    right: 120px;
+    right: 30px;
+    top: 390px;
     opacity: 0;
     bottom: -50px;
     padding: 24px;
@@ -272,7 +275,7 @@ h2{
 }
 
 .whatsapp1-btn-container .whatsapp1-btn {
-    font-size: 48px;
+    font-size: 55px;
     color: #25d366;
     display: inline-block;
     transition: all 400ms;
@@ -300,6 +303,7 @@ h2{
 }
 
 
+
 /* footer */
 
 
@@ -309,17 +313,20 @@ h2{
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 250px;
+    height: 150px;
+    
+ }
+ 
+ .p3{
+     background-color: #005d88;
+     color: aliceblue;
+     text-align: center;
  }
 
-.foot-bot{
-    background-color: #005d88;
-    color: aliceblue;
-    text-align: center;
-}
-
-
-
+.logo1{
+    width: 80px;
+    cursor: pointer; 
+}  
 
 
 
