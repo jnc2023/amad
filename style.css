@@ -227,7 +227,7 @@ h2{
 }
 
 .whatsapp-btn-container .whatsapp-btn {
-    font-size: 55px;
+    font-size: 70px;
     color: #0004ff;
     display: inline-block;
     transition: all 400ms;
@@ -259,7 +259,7 @@ h2{
 .whatsapp1-btn-container {
     position: fixed;
     right: 30px;
-    top: 500px;
+    top: 525px;
     opacity: 0;
     bottom: -50px;
     padding: 24px;
@@ -275,7 +275,7 @@ h2{
 }
 
 .whatsapp1-btn-container .whatsapp1-btn {
-    font-size: 55px;
+    font-size: 70px;
     color: #25d366;
     display: inline-block;
     transition: all 400ms;
@@ -309,7 +309,7 @@ h2{
 
     
 .bot{
-    padding-top: 30px;
+    padding-top: 70px;
     background-position: center;
     background-size: cover;
     width: 100%;
