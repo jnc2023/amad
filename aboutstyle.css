@@ -121,7 +121,7 @@ button:hover{
  
 
 h2{
-    font-size: 40px;
+    font-size: 55px;
     text-align: center;
     padding: 40px 40px;
     letter-spacing: 18px;
@@ -196,7 +196,7 @@ h2{
 }
 
 .whatsapp1-btn-container .whatsapp1-btn {
-    font-size: 48px;
+    font-size: 55px;
     color: #25d366;
     display: inline-block;
     transition: all 400ms;
