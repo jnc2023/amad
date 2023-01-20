@@ -137,7 +137,7 @@ h2{
     right: 30px;
     opacity: 0;
     bottom: -50px;
-    padding: 24px;
+    padding: 30px;
     animation: fade-up 1000ms forwards;
     animation-delay: 1000ms;
 }
@@ -183,7 +183,7 @@ h2{
     right: 120px;
     opacity: 0;
     bottom: -50px;
-    padding: 24px;
+    padding: 30px;
     animation: fade-up 1000ms forwards;
     animation-delay: 1000ms;
 }
